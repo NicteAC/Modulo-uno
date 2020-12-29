@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Carolina Aliaga">
+  <meta name="description" content="portafolio">
+  <meta name="keywords" content="Portafolio prueba">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:200,400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/63a26b38d6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Portafolio</title>
+</head>
+
+<!--barra de navegacion-->
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top px-4 nav_color">
+    <div class="container">
+      <a class="navbar-brand font-weight-bold ml-2 text-white nav_titulo" href="#">M</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class=" navbar-nav ml-auto nav_menu_collapse">
+          <a class="nav-link" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#sobremi">Sobre mí</a>
+          <a class="nav-link" href="#experiencia">Experiencia</a>
+          <a class="nav-link" href="#">Trabajos</a>
+          <a class="nav-link" href="#">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header class="header_section header_section_img" id="inicio">
+    <div class="container text-center header_div">
+      <h2 class="font-weight-bold text-white display-4 header_text"> YO SOY</h2>
+      <h1 class="font-weight-bold text-white display-4 mt-2 header-text">MAGDALENA</h1>
+    </div>
+  </header>
+
+  <section class="section_sobre_mi pt-5 mx-5" id="sobremi">
+    <div class="mx-5">
+      <h4 class="text-center mx-5 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti libero sit odio dolore expedita, repudiandae repellat inventore maiores blanditiis esse.</h4>
+      <hr class=" bg-dark mb-4 text-center linea_sobremi">
+    </div>
+    <div class="row pt-3 mx-5">
+      <div class="col-md-6 col-lg-6 text-left">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum rem sequi cupiditate impedit, necessitatibus id assumenda aliquid consequatur debitis similique at molestiae? Quo, numquam modi?</p>
+      </div>
+
+      <div class="col-md-6 col-lg-6 text-left">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ex minima dolorem vitae cupiditate maxime nam id mollitia odio numquam, cumque inventore repudiandae eligendi autem, saepe labore fugit modi laboriosam?</p>
+      </div>
+    </div><!--fin del row-->
+  </section>
+
+  <section class="section_experiencia" id="experiencia">
+    <div class="mt-5 container">
+      <h2 class="text-center">Mi experiencia</h2>
+      <hr class=" bg-dark mb-4 text-center linea_sobremi">
+    </div>
+<!--aqui se puede poner un carrousel-->
+    <div class="row mt-5"> 
+      <article class="col-xs-12 col-md-6 text-center">
+        <i class="fab fa-empire fa-10x" data-toggle="popover" title="Diseñadora" data-content="Varios años de experiencia"></i>
+        <p class="h4 font-weight-bolder mt-2">Stormtrooper</p>
+        <p class=" font-weight-lighter h5">1980-2014</p>
+      </article>
+      
+      <article class="col-xs-12 col-md-6 text-center">
+        <i class=" fab fa-medium-m fa-10x"data-toggle="popover" title="Desarrolladora" data-content="Full stack con Ruby on Rails"></i>
+        <p class="h4 font-weight-bolder mt-2">Desarrolladora Rails</p>
+        <p class=" font-weight-lighter h5">2014-2018</p>
+      </article>
+
+    </div><!--fin del row-->
+  </section>
+
+  <section class="container-fluid section_trabajos" id=trabajos>
+    <div class="mt-5">
+        <h2 class="display-6 font-weigth-bold text-white text-center pt-5 mt-2">Mis últimos trabajos</h2>
+        <hr class="bg-white linea_sobremi">
+    </div>
+    <!--container-->
+    <div class="container">
+      <!--row-->
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <div class="card my-3"> <!--tarjeta 1-->
+            <img src="assets/img/meet_coffee.png" class="card-img-top" alt="Proyecto meet&coffee">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>          
+          <div class="card"> <!--tarjeta 2-->
+            <img src="assets/img/iguana_page.png" class="card-img-top" alt="Proyecto Iguana">
+            <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>          
+          <div class="card"> <!--tarjeta 3-->
+            <img src="assets/img/suricata.png" class="card-img-top" alt="Proyecto Suricata">
+            <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>          
+          <div class="card"> <!--tarjeta 4-->
+            <img src="assets/img/cuppon.png" class="card-img-top" alt="Proyecto Iguana">
+            <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           </div>          
+           <div class="card"> <!--tarjeta 5-->
+              <img src="assets/img/ricomida.png" class="card-img-top" alt="Proyecto meet&coffee">
+              <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>          
+          <div class="card"> <!--tarjeta 6-->
+            <img src="assets/img/dmark.png" class="card-img-top" alt="Proyecto Ricomida">
+            <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section_contacto" id="contacto">
+    <section class="container-fluid pt-0 mt-4 bg-white">
+      <div class="container py-4">
+          <h2 class="text-center my-3 text-grey">
+              Contacto
+          </h2>
+          <h5 class="text-center my-3 text-grey mt-">
+            ¿Quieres saber mas de mi?
+          </h5>
+          <form>              
+          <div class="text-center">
+            <button type="submit" class="btn btn-dark btn-lg px-5 boton">
+               Comenzar
+            </button>
+          </div>
+          </form>
+      </div>
+  </section>
+
+  </section>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+<footer class="section_footer container-fluid text-white text-center py-5">
+<div class="row">
+  <div class="col-xs-12 col-md-6 my-5">
+    <h3 class="font-weight-bold">MAGDALENA</h3>
+  </div>
+  <div class="col-xs-12 col-md-6 pt-5">
+     <a href="https://github.com"><i class="fab fa-github-square fa-3x mx-2"></i></a>
+     <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-3x mx-2"></i></a>
+		 <a href="https://twitter.com"><i class="fab fa-twitter-square fa-3x mx-2"></i></a>    
+     <a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-3x mx-2"></i></a>
+  </div>
+
+</div>
+
+</footer>
+</html>

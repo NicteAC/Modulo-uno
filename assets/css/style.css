@@ -1,0 +1,25 @@
+body{
+    font-family: "Oswald", sans-serif;
+    color: #373A3C;
+}
+
+.nav_color, .section_trabajos, .section_footer{
+    background-color: #660066;
+}
+
+.header_section_img{
+    background-image: url('../img/bg_hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+.linea_sobremi{
+    width: 12%;
+    height: 2px;
+}
+
+.header_div{
+    padding-top: 450px;
+}
