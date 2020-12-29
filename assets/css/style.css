@@ -23,3 +23,9 @@ body{
 .header_div{
     padding-top: 450px;
 }
+
+.section_fontawesome a{
+    background-color: #660066;
+    color: #ffffff;
+
+}
