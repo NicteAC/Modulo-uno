@@ -1,5 +1,5 @@
 body{
-    font-family: "Oswald", sans-serif;
+    font-family: 'Pacifico', cursive;
     color: #373A3C;
 }
 
@@ -8,7 +8,7 @@ body{
 }
 
 .header_section_img{
-    background-image: url('../img/bg_hero.png');
+    background-image: url('../img/Portada.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
