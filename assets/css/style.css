@@ -3,12 +3,12 @@ body{
     color: #373A3C;
 }
 
-.nav_color, .section_trabajos, .section_footer{
+.nav_color, .section_miscursos, .section_footer{
     background-color: #660066;
 }
 
 .header_section_img{
-    background-image: url('../img/Portada.jpg');
+    background-image: url('../img/Portada3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
